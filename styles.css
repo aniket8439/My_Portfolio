@@ -239,6 +239,7 @@ body {
         width: 292px;
         height: 329px;
         margin-left: 5%;
+        margin-right: 5%;
         display: flex;
         flex-flow: column wrap;
         margin-top: 85%;
