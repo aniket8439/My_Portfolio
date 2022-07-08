@@ -208,7 +208,7 @@ body {
         position: absolute;
         width: 292px;
         height: 329px;
-        left: 90px;
+        margin-left: auto;
         margin-top: 5%;
         background: #48C91B;
         border-radius: 48px;
@@ -238,10 +238,10 @@ body {
         position: absolute;
         width: 292px;
         height: 329px;
-        left: 90px;
+        margin-left: auto;
         display: flex;
         flex-flow: column wrap;
-        margin-top: 80%;
+        margin-top: auto;
         background: #00C1DB;
         border-radius: 48px;
     }
