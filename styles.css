@@ -208,7 +208,7 @@ body {
         position: absolute;
         width: 292px;
         height: 329px;
-        left: 10px;
+        left: 20px;
         margin-left: 5%;
         margin-top: 5%;
         background: #48C91B;
@@ -239,10 +239,11 @@ body {
         position: absolute;
         width: 292px;
         height: 329px;
+        left: 20px;
         margin-left: 5%;
         display: flex;
         flex-flow: column wrap;
-        margin-top: 85%;
+        margin-top: 90%;
         background: #00C1DB;
         border-radius: 48px;
     }
@@ -271,8 +272,8 @@ body {
         position: absolute;
         width: 292px;
         height: 329px;
-        left: 90px;
-        margin-top: 165%;
+        left: 20px;
+        margin-top: 170%;
         background: #9F0FE2;
         border-radius: 48px;
     }
@@ -301,8 +302,8 @@ body {
         position: absolute;
         width: 292px;
         height: 329px;
-        left: 90px;
-        margin-top: 245%;
+        left: 20px;
+        margin-top: 250%;
         background: #C3C703;
         border-radius: 48px;
     }
