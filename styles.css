@@ -343,7 +343,7 @@ body {
         position: absolute;
         width: 294px;
         height: 84px;
-        left: 100px;
+        left: 70px;
         margin-top: 300%;
         font-family: 'Jacques Francois';
         font-style: normal;
@@ -360,8 +360,6 @@ body {
         height: 279px;
         margin-top: 400%;
         left: 0px;
-        right: 0px;
-        margin-left: 5%;
         text-align: center;
         font-family: 'Itim';
         font-style: normal;
