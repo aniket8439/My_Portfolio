@@ -208,7 +208,8 @@ body {
         position: absolute;
         width: 292px;
         height: 329px;
-        left margin-left: 5%;
+        left: 10px;
+        margin-left: 5%;
         margin-top: 5%;
         background: #48C91B;
         border-radius: 48px;
@@ -239,7 +240,6 @@ body {
         width: 292px;
         height: 329px;
         margin-left: 5%;
-        margin-right: 5%;
         display: flex;
         flex-flow: column wrap;
         margin-top: 85%;
@@ -272,7 +272,7 @@ body {
         width: 292px;
         height: 329px;
         left: 90px;
-        margin-top: 160%;
+        margin-top: 165%;
         background: #9F0FE2;
         border-radius: 48px;
     }
@@ -302,7 +302,7 @@ body {
         width: 292px;
         height: 329px;
         left: 90px;
-        margin-top: 240%;
+        margin-top: 245%;
         background: #C3C703;
         border-radius: 48px;
     }
@@ -333,7 +333,7 @@ body {
         height: 306px;
         left: 10px;
         margin-left: 25%;
-        margin-top: 260%;
+        margin-top: 265%;
         border-radius: 48px;
     }
     .about p {
