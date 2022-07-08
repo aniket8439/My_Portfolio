@@ -208,7 +208,7 @@ body {
         position: absolute;
         width: 292px;
         height: 329px;
-        left: 20px;
+        left: 30px;
         margin-left: 5%;
         margin-top: 5%;
         background: #48C91B;
@@ -239,11 +239,11 @@ body {
         position: absolute;
         width: 292px;
         height: 329px;
-        left: 20px;
+        left: 30px;
         margin-left: 5%;
         display: flex;
         flex-flow: column wrap;
-        margin-top: 90%;
+        margin-top: 100%;
         background: #00C1DB;
         border-radius: 48px;
     }
@@ -272,8 +272,9 @@ body {
         position: absolute;
         width: 292px;
         height: 329px;
-        left: 20px;
-        margin-top: 170%;
+        left: 30px;
+        margin-left: 5%;
+        margin-top: 200%;
         background: #9F0FE2;
         border-radius: 48px;
     }
@@ -302,8 +303,9 @@ body {
         position: absolute;
         width: 292px;
         height: 329px;
-        left: 20px;
-        margin-top: 250%;
+        left: 30px;
+        margin-left: 5%;
+        margin-top: 300%;
         background: #C3C703;
         border-radius: 48px;
     }
@@ -334,7 +336,7 @@ body {
         height: 306px;
         left: 10px;
         margin-left: 25%;
-        margin-top: 270%;
+        margin-top: 370%;
         border-radius: 48px;
     }
     .about p {
@@ -342,7 +344,7 @@ body {
         width: 294px;
         height: 84px;
         left: 100px;
-        margin-top: 260%;
+        margin-top: 350%;
         font-family: 'Jacques Francois';
         font-style: normal;
         font-weight: 400;
@@ -356,7 +358,7 @@ body {
         position: absolute;
         width: 400px;
         height: 279px;
-        margin-top: 350%;
+        margin-top: 400%;
         left: 0px;
         right: 0px;
         margin-left: 5%;
