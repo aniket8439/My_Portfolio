@@ -2,12 +2,16 @@
                     background-color: #000000;
                 }
                 
-                .text {
-                    position: absolute;
+                .container {
+                    display: flex;
+                    justify-content: space-around;
+                    flex-wrap: wrap;
+                    flex-direction: row;
+                }
+                
+                .intro {
                     width: 573px;
                     height: 84px;
-                    left: 50px;
-                    top: 100px;
                     font-family: 'Jacques Francois';
                     font-style: normal;
                     font-weight: 400;
@@ -16,64 +20,70 @@
                     color: #FFFFFF;
                 }
                 
-                .container1 {
-                    position: absolute;
+                .item {
                     width: 292px;
                     height: 329px;
+                    margin: 12px;
                     left: 62px;
                     top: 286px;
-                    background: #48C91B;
                     border-radius: 48px;
+                    align-items: center;
+                    transition: all .2s ease-in-out;
                 }
                 
-                .container1 img {
-                    position: absolute;
+                .item1 {
+                    background-color: #48C91B;
+                    border-radius: 48px;
+                    width: 292px;
+                    height: 329px;
+                }
+                
+                .item2 {
+                    background-color: #00C1DB;
+                    border-radius: 48px;
+                    width: 292px;
+                    height: 329px;
+                }
+                
+                .item3 {
+                    background-color: #9F0FE2;
+                    border-radius: 48px;
+                    width: 292px;
+                    height: 329px;
+                }
+                
+                .item4 {
+                    background-color: #C3C703;
+                    border-radius: 48px;
+                    width: 292px;
+                    height: 329px;
+                }
+                
+                img {
                     width: 153px;
                     height: 147px;
-                    left: 70px;
-                    top: 51px;
+                    margin-left: 70px;
+                    margin-top: 51px;
+                    text-align: center;
                     border-radius: 48px;
                 }
                 
-                .container1 p {
-                    position: absolute;
+                .school {
                     width: 346px;
                     height: 128px;
-                    left: 45px;
-                    top: 175px;
                     font-family: 'Jacques Francois';
                     font-style: normal;
                     font-weight: 400;
                     font-size: 48px;
                     line-height: 63px;
                     color: #FFFFFF;
+                    margin-left: 50px;
                 }
                 
-                .container2 {
-                    position: absolute;
-                    width: 292px;
-                    height: 329px;
-                    left: 406px;
-                    top: 286px;
-                    background: #00C1DB;
-                    border-radius: 48px;
-                }
-                
-                .container2 img {
-                    position: absolute;
-                    width: 162.83px;
-                    height: 147px;
-                    left: 57px;
-                    top: 51px;
-                    border-radius: 48px;
-                }
-                
-                .container2 p {
-                    position: absolute;
+                .graduation {
                     width: 258px;
                     height: 63px;
-                    left: 35px;
-                    top: 175px;
+                    margin-left: 35px;
                     font-family: 'Jacques Francois';
                     font-style: normal;
                     font-weight: 400;
@@ -82,31 +92,11 @@
                     color: #FFFFFF;
                 }
                 
-                .container3 {
-                    position: absolute;
-                    width: 292px;
-                    height: 329px;
-                    left: 750px;
-                    top: 286px;
-                    background: #9F0FE2;
-                    border-radius: 48px;
-                }
-                
-                .container3 img {
-                    position: absolute;
-                    width: 178px;
-                    height: 138.22px;
-                    left: 57px;
-                    top: 51px;
-                    border-radius: 48px;
-                }
-                
-                .container3 p {
-                    position: absolute;
+                .skills {
                     width: 260px;
                     height: 126px;
-                    left: 30px;
-                    top: 150px;
+                    margin-left: 30px;
+                    margin-top: -15px;
                     font-family: 'Jacques Francois';
                     font-style: normal;
                     font-weight: 400;
@@ -115,31 +105,10 @@
                     color: #FFFFFF;
                 }
                 
-                .container4 {
-                    position: absolute;
-                    width: 292px;
-                    height: 329px;
-                    left: 1094px;
-                    top: 286px;
-                    background: #C3C703;
-                    border-radius: 48px;
-                }
-                
-                .container4 img {
-                    position: absolute;
-                    width: 162.83px;
-                    height: 147px;
-                    left: 57px;
-                    top: 51px;
-                    border-radius: 48px;
-                }
-                
-                .container4 p {
-                    position: absolute;
+                .family {
                     width: 155px;
                     height: 63px;
-                    left: 70px;
-                    top: 175px;
+                    margin-left: 75px;
                     font-family: 'Jacques Francois';
                     font-style: normal;
                     font-weight: 400;
@@ -148,21 +117,14 @@
                     color: #FFFFFF;
                 }
                 
-                .my_image {
-                    position: absolute;
-                    width: 200px;
-                    height: 306px;
-                    left: 67px;
-                    top: 718px;
-                    border-radius: 48px;
+                .item:hover {
+                    transform: scale(1.1);
+                    cursor: pointer;
                 }
                 
                 .about p {
-                    position: absolute;
                     width: 294px;
                     height: 84px;
-                    left: 700px;
-                    top: 580px;
                     font-family: 'Jacques Francois';
                     font-style: normal;
                     font-weight: 400;
@@ -173,197 +135,50 @@
                     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
                 }
                 
+                .my_image {
+                    width: 200px;
+                    height: 306px;
+                    margin-left: 40px;
+                    margin-top: -10px;
+                    border-radius: 48px;
+                    transition: .2s ease;
+                }
+                
+                .my_image:hover {
+                    transform: translateZ(10px);
+                }
+                
+                .fcontent>div {
+                    transition: var(--transform);
+                }
+                
+                .content {
+                    margin-top: 20px;
+                    margin-left: 5%;
+                    margin-right: 5%;
+                    background-color: #232121;
+                    border-radius: 48px;
+                }
+                
                 .content p {
-                    position: absolute;
-                    width: 1073px;
-                    height: 279px;
-                    top: 700px;
-                    left: 350px;
+                    margin-left: 5px;
+                    padding: 2%;
+                    margin-top: 5px;
                     font-family: 'Itim';
                     font-style: normal;
                     font-weight: 400;
-                    font-size: 32px;
+                    font-size: 26px;
                     line-height: 38px;
                     text-align: center;
                     color: #FFFFFF;
                 }
                 
-                @media only screen and (max-width:700px) {
-                    .text {
-                        position: absolute;
-                        width: 300px;
-                        height: 10px;
-                        left: 10px;
-                        top: 20px;
-                        font-family: 'Jacques Francois';
-                        font-style: normal;
-                        font-weight: 400;
-                        font-size: 64px;
-                        line-height: 84px;
-                        color: #FFFFFF;
-                    }
-                    .container1 {
-                        position: absolute;
-                        width: 292px;
-                        height: 329px;
-                        left: 30px;
-                        margin-left: 5%;
-                        margin-top: 5%;
-                        background: #48C91B;
-                        border-radius: 48px;
-                    }
-                    .container1 img {
-                        position: absolute;
-                        width: 153px;
-                        height: 147px;
-                        left: 70px;
-                        top: 51px;
-                        border-radius: 48px;
-                    }
-                    .container1 p {
-                        position: absolute;
-                        width: 346px;
-                        height: 128px;
-                        left: 45px;
-                        top: 175px;
-                        font-family: 'Jacques Francois';
-                        font-style: normal;
-                        font-weight: 400;
-                        font-size: 48px;
-                        line-height: 63px;
-                        color: #FFFFFF;
-                    }
-                    .container2 {
-                        position: absolute;
-                        width: 292px;
-                        height: 329px;
-                        left: 30px;
-                        margin-left: 5%;
-                        display: flex;
-                        flex-flow: column wrap;
-                        margin-top: 100%;
-                        background: #00C1DB;
-                        border-radius: 48px;
-                    }
-                    .container2 img {
-                        position: absolute;
-                        width: 162.83px;
-                        height: 147px;
-                        left: 57px;
-                        top: 51px;
-                        border-radius: 48px;
-                    }
-                    .container2 p {
-                        position: absolute;
-                        width: 258px;
-                        height: 63px;
-                        left: 35px;
-                        top: 175px;
-                        font-family: 'Jacques Francois';
-                        font-style: normal;
-                        font-weight: 400;
-                        font-size: 48px;
-                        line-height: 63px;
-                        color: #FFFFFF;
-                    }
-                    .container3 {
-                        position: absolute;
-                        width: 292px;
-                        height: 329px;
-                        left: 30px;
-                        margin-left: 5%;
-                        margin-top: 200%;
-                        background: #9F0FE2;
-                        border-radius: 48px;
-                    }
-                    .container3 img {
-                        position: absolute;
-                        width: 178px;
-                        height: 138.22px;
-                        left: 57px;
-                        top: 51px;
-                        border-radius: 48px;
-                    }
-                    .container3 p {
-                        position: absolute;
-                        width: 260px;
-                        height: 126px;
-                        left: 30px;
-                        top: 150px;
-                        font-family: 'Jacques Francois';
-                        font-style: normal;
-                        font-weight: 400;
-                        font-size: 48px;
-                        line-height: 63px;
-                        color: #FFFFFF;
-                    }
-                    .container4 {
-                        position: absolute;
-                        width: 292px;
-                        height: 329px;
-                        left: 30px;
-                        margin-left: 5%;
-                        margin-top: 300%;
-                        background: #C3C703;
-                        border-radius: 48px;
-                    }
-                    .container4 img {
-                        position: absolute;
-                        width: 162.83px;
-                        height: 147px;
-                        left: 57px;
-                        top: 51px;
-                        border-radius: 48px;
-                    }
-                    .container4 p {
-                        position: absolute;
-                        width: 155px;
-                        height: 63px;
-                        left: 70px;
-                        top: 175px;
-                        font-family: 'Jacques Francois';
-                        font-style: normal;
-                        font-weight: 400;
-                        font-size: 48px;
-                        line-height: 63px;
-                        color: #FFFFFF;
-                    }
-                    .my_image {
-                        position: absolute;
-                        width: 200px;
-                        height: 306px;
-                        left: 10px;
-                        margin-left: 25%;
-                        margin-top: 318.2%;
-                        border-radius: 48px;
-                    }
-                    .about p {
-                        position: absolute;
-                        width: 294px;
-                        height: 84px;
-                        left: 65px;
-                        margin-top: 315%;
-                        font-family: 'Jacques Francois';
-                        font-style: normal;
-                        font-weight: 400;
-                        font-size: 64px;
-                        line-height: 84px;
-                        color: #C40F0F;
-                        border: 1px solid #B83B3B;
-                        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-                    }
-                    .content p {
-                        position: absolute;
-                        width: 398px;
-                        height: 279px;
-                        margin-top: 420%;
-                        left: 0px;
-                        text-align: center;
-                        font-family: 'Itim';
-                        font-style: normal;
-                        font-weight: 400;
-                        font-size: 32px;
-                        line-height: 38px;
-                        color: #FFFFFF;
-                    }
+                h1 {
+                    font-family: 'Jacques Francois';
+                    font-size: 64px;
+                    font-weight: 400;
+                    line-height: 84px;
+                    color: #C40F0F;
+                    border: 1px solid #B83B3B;
+                    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
                 }
