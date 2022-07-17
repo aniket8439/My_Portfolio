@@ -182,3 +182,25 @@
                     border: 1px solid #B83B3B;
                     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
                 }
+                
+                h2 {
+                    color: #FFDEAD;
+                    font-size: 26px;
+                    font-family: 'Itim';
+                    text-align: center;
+                }
+                
+                .box {
+                    width: 150px;
+                    height: 150px;
+                    margin: 12px;
+                    left: 62px;
+                    top: 286px;
+                    border-radius: 24px;
+                    align-items: center;
+                    background-color: #2f4f4f;
+                }
+                
+                ul {
+                    color: #f5f5f5;
+                }
